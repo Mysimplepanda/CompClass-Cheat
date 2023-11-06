@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>進制轉換器</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+  <h2>進制轉換器</h2>
+  <label for="number">數字:</label>
+  <input type="text" id="number" name="number">
+  
+  <label for="base">基數:</label>
+  <select id="base" name="base">
+    <option value="2">十進制轉二進制</option>
+    <option value="10">二進制轉十進制</option>
+  </select>
+  
+  <button onclick="convert()">轉換</button>
+  
+  <h3>結果:</h3>
+  <pre id="result"></pre>
+</body>
+</html>

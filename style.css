@@ -1,0 +1,148 @@
+/* 基本重置一些默認樣式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* 容器樣式，用於包裝內容 */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* 導航樣式 */
+nav ul {
+  background: #555;
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #444;
+}
+
+/* 主要區塊樣式 */
+.main {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  background: #fff;
+}
+
+/* 側欄樣式 */
+.sidebar {
+  float: right;
+  width: 30%;
+  padding: 20px;
+  background: #fff;
+}
+
+/* 底部樣式 */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* 按鈕樣式 */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #555;
+}
+
+/* 表格樣式 */
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background: #efefef;
+}
+
+/* 表單樣式 */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: auto;
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #555;
+}
